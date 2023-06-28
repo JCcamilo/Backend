@@ -1,6 +1,4 @@
-package Intro;
-
-import Service.LibroService;
+package Entities;
 
 import java.util.Scanner;
 

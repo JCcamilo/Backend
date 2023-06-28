@@ -1,4 +1,4 @@
-package Intro;
+package Entities;
 
 /*
 Crear una clase Rectángulo que modele rectángulos por medio de un atributo privado

@@ -1,4 +1,4 @@
-package Intro;
+package Entities;
 
 /*
 Realizar una clase llamada Cuenta (bancaria) que debe tener como mínimo los atributos:

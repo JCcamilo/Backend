@@ -1,4 +1,4 @@
-package Intro;
+package Entities;
 
 /*
 Crear una clase llamada Operacion que tenga como atributos privados numero1 y

@@ -1,6 +1,6 @@
 package Service;
 
-import Intro.Circunferencia;
+import Entities.Circunferencia;
 
 import java.util.Scanner;
 

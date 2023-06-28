@@ -1,4 +1,4 @@
-package Intro;
+package Entities;
 
 /*
 Programa Nespresso. Desarrolle una clase Cafetera con los atributos capacidadMaxima
@@ -52,9 +52,14 @@ public class Cafetera {
         cantidadActual = capacidadMaxima;
     }
 
+    /**
+     * Se sirve el café si existe la disponibilidad, sino se sirve
+     * @param tamanioTaza
+     * @return La cantidad disponible para servir
+     */
     public double servirTaza(double tamanioTaza) {
 
-        System.out.println("La taza posee una capacidad" + tamanioTaza + " y se sirvió " + cantidadActual);
+        System.out.println("La taza posee una capacidad" + tamanioTaza + "gr y se sirvió " + cantidadActual + " gr");
 
         return Math.min(tamanioTaza, cantidadActual);
     }
@@ -63,8 +68,15 @@ public class Cafetera {
         cantidadActual = 0;
     }
 
+    /**
+     * Se agrega café acorde a la cantidad ingresada
+     * @param adicional
+     */
     public void agregarCafe(double adicional) {
-        cantidadActual += adicional;
+
+        cantidadActual = Math.min(cantidadActual + adicional, capacidadMaxima); //(x>y)?x:y
+
+        System.out.println("La cafetera tiene una capacidad máxima" + capacidadMaxima + " y posee " + cantidadActual + " gr");
     }
 
 }

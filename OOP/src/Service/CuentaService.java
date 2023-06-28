@@ -1,6 +1,6 @@
 package Service;
 
-import Intro.Cuenta;
+import Entities.Cuenta;
 
 import java.util.Scanner;
 

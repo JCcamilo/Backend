@@ -1,6 +1,6 @@
 package Service;
 
-import Intro.Operacion;
+import Entities.Operacion;
 import java.util.Scanner;
 
 public class OperacionService {

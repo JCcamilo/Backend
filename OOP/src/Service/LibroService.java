@@ -1,6 +1,6 @@
 package Service;
 
-import Intro.Libro;
+import Entities.Libro;
 import java.util.Scanner;
 
 public class LibroService {

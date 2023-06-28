@@ -1,6 +1,6 @@
 package Service;
 
-import Intro.Rectangulo;
+import Entities.Rectangulo;
 
 import java.util.Scanner;
 
