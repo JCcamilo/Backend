@@ -3,10 +3,12 @@ import Service.DogService;
 public class Main {
     public static void main(String[] args) {
 
-        DogService dogService = new DogService();
+        DogService ds = new DogService();
 
-        dogService.fabricateDogs();
+        ds.fabricateDogs();
+        ds.printDogs();
 
-        dogService.printDogs();
+        ds.freeDog();
+        ds.printDogs();
     }
 }
